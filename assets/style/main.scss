@@ -1,0 +1,34 @@
+$primary-color: #4626D0;
+
+body {
+    margin: 0;
+    background-color: $primary-color;
+}
+
+h1 {
+    margin: 0;
+    @flexAlign
+}
+
+.main {
+    padding: 10px;
+    &:hover {
+
+    }
+}
+
+.top-list__item {
+    color: purple;
+    font-size: 22px;
+    &:before {
+        content: '123213'
+        
+    }
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
